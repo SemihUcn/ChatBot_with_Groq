@@ -1,1 +1,9 @@
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+a = [1,2,3,4];b=0
+for i in range(len(a)):b+=a[i]*2 if a[i]%2==0 else a[i]/3
+print("Sonuç",b);exec("for x in range(2):print('niye böyle')")
+
+def x(y):return y**y if y>0 else x(y+1)
+print(x(-2))
+
+import this  # çünkü neden olmasın
+
